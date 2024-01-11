@@ -5,7 +5,7 @@ from ttkbootstrap.dialogs.dialogs import Messagebox
 
 
 window = tb.Window(themename='cyborg', title='Timer', maxsize=(500,500))
-window.iconbitmap(r"C:\Users\HP\Desktop\Timer\icon1.ico")
+window.iconbitmap("icon1.ico")
 window.geometry('600x600+550+150')
 #Title label
 Label = tb.Label(window, text='TIMER', font=('Arial', 15), padding='12')
